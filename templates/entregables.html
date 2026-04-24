@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h3>Entregables del proyecto</h3>
+
+<div class="grilla">
+  {% for s in secciones %}
+  {% set circulo = "🟢" if s.estado == "completado" else ("🟡" if s.estado == "en_progreso" else "🔴") %}
+  <a href="{{ url_for('entregable', id=s.id) }}" class="tarjeta">
+    <span class="badge badge-{{ s.estado }}">{{ s.estado | replace('_', ' ') }}</span>
+    <p class="tarjeta-num">{{ circulo }} Entregable {{ s.id }}</p>
+    <p class="tarjeta-titulo">{{ s.titulo }}</p>
+  </a>
+  {% endfor %}
+</div>
+
+{% endblock %}
