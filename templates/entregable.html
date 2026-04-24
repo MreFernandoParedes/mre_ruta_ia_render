@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+
+<a href="{{ url_for('entregables') }}" class="btn-volver">← Volver</a>
+
+<h3>Entregable {{ seccion.id }}: {{ seccion.titulo }}</h3>
+
+<form method="POST" action="{{ url_for('actualizar_estado', id=seccion.id) }}" class="form-estado">
+  <label>Estado:</label>
+  {% for estado in ["pendiente", "en_progreso", "completado"] %}
+  <label class="radio-label">
+    <input type="radio" name="estado" value="{{ estado }}"
+      {{ "checked" if seccion.estado == estado }}>
+    {{ estado | replace('_', ' ') }}
+  </label>
+  {% endfor %}
+  <button type="submit" class="btn-guardar">Guardar</button>
+</form>
+
+{% if seccion.contenido %}
+  {% for bloque in seccion.contenido %}
+    <p>{{ bloque }}</p>
+  {% endfor %}
+{% elif not seccion.enlaces %}
+  <div class="info-box">Este entregable aún no tiene contenido. Se irá completando progresivamente.</div>
+{% endif %}
+
+{% if seccion.enlaces %}
+<h4>Referencias y enlaces</h4>
+<div class="grilla">
+  {% for enlace in seccion.enlaces %}
+  <div class="tarjeta-enlace">
+    <span class="badge-categoria">{{ enlace.categoria }}</span>
+    <p><strong>{{ enlace.nombre }}</strong></p>
+    <p class="desc">{{ enlace.descripcion }}</p>
+    <a href="{{ enlace.url }}" target="_blank">Ver sitio web →</a>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% endblock %}

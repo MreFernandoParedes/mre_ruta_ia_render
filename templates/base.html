@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IA · MRE</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="{{ url_for('inicio') }}">
+        <img src="{{ url_for('static', filename='img/logo_mre.png') }}" alt="MRE" height="48">
+      </a>
+      <nav>
+        <a href="{{ url_for('inicio') }}" class="{{ 'active' if request.endpoint == 'inicio' }}">Inicio</a>
+        <a href="{{ url_for('entregables') }}" class="{{ 'active' if request.endpoint in ('entregables', 'entregable') }}">Entregables</a>
+        <a href="{{ url_for('acerca') }}" class="{{ 'active' if request.endpoint == 'acerca' }}">Acerca</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>Ministerio de Relaciones Exteriores del Perú</strong></p>
+    <p>Hoja de Ruta para la integración de la inteligencia artificial en la diplomacia digital · 2026</p>
+  </footer>
+</body>
+</html>

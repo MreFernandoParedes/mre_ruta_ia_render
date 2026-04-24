@@ -1,0 +1,117 @@
+{
+  "proyecto": {
+    "titulo": "Hoja de Ruta para la integración de la inteligencia artificial en la diplomacia digital",
+    "institucion": "Ministerio de Relaciones Exteriores del Perú",
+    "anio": 2026
+  },
+  "secciones": [
+    {
+      "id": 1,
+      "titulo": "Documento técnico de diagnóstico del estado actual",
+      "estado": "en_progreso",
+      "contenido": [],
+      "enlaces": [
+        {
+          "nombre": "Análisis del Estado Actual de la Diplomacia Digital y Uso de IA en el MRE",
+          "url": "https://rreeperu365-my.sharepoint.com/:w:/r/personal/fparedesa_rree_gob_pe/Documents/Escritorio/1%20Analisis%20del%20estado%20actual/Analisis_estado_actual_diplomacia_digital_y_uso_de_IA_en_el_MRE%20v10.docx?d=wb7958e2fe9e24ec582fb359695837e3b&csf=1&web=1&e=XJpZHJ",
+          "descripcion": "Documento técnico que diagnostica el estado actual de la diplomacia digital y el uso de inteligencia artificial en el Ministerio de Relaciones Exteriores del Perú (versión 10).",
+          "categoria": "Documento Oficial"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titulo": "Informe de tendencias, riesgos y buenas prácticas",
+      "estado": "en_progreso",
+      "contenido": [],
+      "enlaces": [
+        {
+          "nombre": "TECH Innovation SAC",
+          "url": "https://techin-corp.com/es/",
+          "descripcion": "Visión artificial para industria: detección de objetos, control de inventario y automatización logística con precisión declarada del 100%.",
+          "categoria": "Visión Artificial"
+        },
+        {
+          "nombre": "Qonteo",
+          "url": "https://www.qonteo.com/es-qonteo",
+          "descripcion": "Convierte video de cámaras IP en inteligencia de negocio mediante IA: análisis de afluencia, demografía y patrones en retail, hoteles y ciudades inteligentes.",
+          "categoria": "Analítica de Video"
+        },
+        {
+          "nombre": "Yapaykuy",
+          "url": "https://yapaykuy.com/",
+          "descripcion": "Primera IA en el mundo que traduce lengua de señas en tiempo real, orientada a crear negocios y servicios inclusivos para personas con discapacidad auditiva.",
+          "categoria": "Inclusión Social"
+        },
+        {
+          "nombre": "IRBin · CIRSYS Tech",
+          "url": "https://www.cirsystech.com/irbin",
+          "descripcion": "Robot social peruano con IA que identifica residuos reciclables, interactúa con el usuario y premia conductas sostenibles de reciclaje.",
+          "categoria": "Medio Ambiente"
+        },
+        {
+          "nombre": "Nereuz · VEOX",
+          "url": "https://nereuz.veox.tech/",
+          "descripcion": "IA para acuicultura: monitoreo subacuático con cámaras y machine learning para estimar biomasa de trucha, tilapia y concha de abanico, reduciendo costos en 30%.",
+          "categoria": "Agro-industria"
+        },
+        {
+          "nombre": "Pixmap · Neurometrics",
+          "url": "https://neurometrics.la/pixmap-es/",
+          "descripcion": "Genera mapas de calor y métricas de atención visual con IA, simulando el seguimiento ocular humano sin equipos físicos de eyetracking.",
+          "categoria": "Marketing y Publicidad"
+        },
+        {
+          "nombre": "ProInnóvate · gob.pe",
+          "url": "https://www.gob.pe/institucion/proinnovate/noticias/923534-seis-herramientas-de-inteligencia-artificial-creadas-en-el-peru-para-mejorar-la-productividad-de-mipymes",
+          "descripcion": "Entidad estatal que financia y difunde herramientas de IA peruanas para mejorar la productividad de MIPYMES; referente institucional del ecosistema IA nacional.",
+          "categoria": "Política Pública"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titulo": "Portafolio de casos de uso de IA para el MRE",
+      "estado": "pendiente",
+      "contenido": []
+    },
+    {
+      "id": 4,
+      "titulo": "Directiva para el uso responsable de IA",
+      "estado": "en_progreso",
+      "contenido": [],
+      "enlaces": [
+        {
+          "nombre": "Directiva de Disposiciones para el Uso de Herramientas de IA en el MRE",
+          "url": "https://rreeperu365-my.sharepoint.com/:w:/r/personal/fparedesa_rree_gob_pe/Documents/Escritorio/Directiva%20IA%20MRE/ver%20soc_Directiva_DISPOSICIONES_USO_HERRAMIENTAS_IA_MRE%20.docx?d=w5451a4df1f38419dba9e784faa769f82&csf=1&web=1&e=AvsGB5",
+          "descripcion": "Versión para socialización de la directiva institucional que regula el uso responsable de herramientas de inteligencia artificial en el Ministerio de Relaciones Exteriores del Perú.",
+          "categoria": "Documento Oficial"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titulo": "Matriz de brechas y necesidades institucionales",
+      "estado": "pendiente",
+      "contenido": []
+    },
+    {
+      "id": 6,
+      "titulo": "Informes técnicos de evaluación de software para IA y de infraestructura necesaria",
+      "estado": "pendiente",
+      "contenido": []
+    },
+    {
+      "id": 7,
+      "titulo": "Hoja de ruta 2026-2028 para diplomacia digital basada en IA",
+      "estado": "pendiente",
+      "contenido": []
+    },
+    {
+      "id": 8,
+      "titulo": "Presentación ejecutiva",
+      "estado": "pendiente",
+      "contenido": []
+    }
+  ]
+}
