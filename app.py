@@ -64,6 +64,12 @@ def actualizar_estado(id):
     return redirect(url_for("entregable", id=id))
 
 
+@app.route("/desarrollos-peru")
+def desarrollos_peru():
+    data = _leer()
+    return render_template("desarrollos-peru.html", enlaces=data["desarrollos_peru"])
+
+
 @app.route("/acerca")
 def acerca():
     return render_template("acerca.html", proyecto=get_proyecto())

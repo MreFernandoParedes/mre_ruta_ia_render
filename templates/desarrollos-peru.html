@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+
+<a href="{{ url_for('entregables') }}" class="btn-volver">← Volver</a>
+
+<h3>Desarrollos con IA en el Perú</h3>
+<p class="desc">Panorama de startups, herramientas e iniciativas de inteligencia artificial creadas en el Perú.</p>
+
+<div class="grilla">
+  {% for enlace in enlaces %}
+  <div class="tarjeta-enlace">
+    <span class="badge-categoria">{{ enlace.categoria }}</span>
+    <p><strong>{{ enlace.nombre }}</strong></p>
+    <p class="desc">{{ enlace.descripcion }}</p>
+    <a href="{{ enlace.url }}" target="_blank">Ver sitio web →</a>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

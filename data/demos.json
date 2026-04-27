@@ -4,6 +4,50 @@
     "institucion": "Ministerio de Relaciones Exteriores del Perú",
     "anio": 2026
   },
+  "desarrollos_peru": [
+    {
+      "nombre": "TECH Innovation SAC",
+      "url": "https://techin-corp.com/es/",
+      "descripcion": "Visión artificial para industria: detección de objetos, control de inventario y automatización logística con precisión declarada del 100%.",
+      "categoria": "Visión Artificial"
+    },
+    {
+      "nombre": "Qonteo",
+      "url": "https://www.qonteo.com/es-qonteo",
+      "descripcion": "Convierte video de cámaras IP en inteligencia de negocio mediante IA: análisis de afluencia, demografía y patrones en retail, hoteles y ciudades inteligentes.",
+      "categoria": "Analítica de Video"
+    },
+    {
+      "nombre": "Yapaykuy",
+      "url": "https://yapaykuy.com/",
+      "descripcion": "Primera IA en el mundo que traduce lengua de señas en tiempo real, orientada a crear negocios y servicios inclusivos para personas con discapacidad auditiva.",
+      "categoria": "Inclusión Social"
+    },
+    {
+      "nombre": "IRBin · CIRSYS Tech",
+      "url": "https://www.cirsystech.com/irbin",
+      "descripcion": "Robot social peruano con IA que identifica residuos reciclables, interactúa con el usuario y premia conductas sostenibles de reciclaje.",
+      "categoria": "Medio Ambiente"
+    },
+    {
+      "nombre": "Nereuz · VEOX",
+      "url": "https://nereuz.veox.tech/",
+      "descripcion": "IA para acuicultura: monitoreo subacuático con cámaras y machine learning para estimar biomasa de trucha, tilapia y concha de abanico, reduciendo costos en 30%.",
+      "categoria": "Agro-industria"
+    },
+    {
+      "nombre": "Pixmap · Neurometrics",
+      "url": "https://neurometrics.la/pixmap-es/",
+      "descripcion": "Genera mapas de calor y métricas de atención visual con IA, simulando el seguimiento ocular humano sin equipos físicos de eyetracking.",
+      "categoria": "Marketing y Publicidad"
+    },
+    {
+      "nombre": "ProInnóvate · gob.pe",
+      "url": "https://www.gob.pe/institucion/proinnovate/noticias/923534-seis-herramientas-de-inteligencia-artificial-creadas-en-el-peru-para-mejorar-la-productividad-de-mipymes",
+      "descripcion": "Entidad estatal que financia y difunde herramientas de IA peruanas para mejorar la productividad de MIPYMES; referente institucional del ecosistema IA nacional.",
+      "categoria": "Política Pública"
+    }
+  ],
   "secciones": [
     {
       "id": 1,
@@ -26,46 +70,10 @@
       "contenido": [],
       "enlaces": [
         {
-          "nombre": "TECH Innovation SAC",
-          "url": "https://techin-corp.com/es/",
-          "descripcion": "Visión artificial para industria: detección de objetos, control de inventario y automatización logística con precisión declarada del 100%.",
-          "categoria": "Visión Artificial"
-        },
-        {
-          "nombre": "Qonteo",
-          "url": "https://www.qonteo.com/es-qonteo",
-          "descripcion": "Convierte video de cámaras IP en inteligencia de negocio mediante IA: análisis de afluencia, demografía y patrones en retail, hoteles y ciudades inteligentes.",
-          "categoria": "Analítica de Video"
-        },
-        {
-          "nombre": "Yapaykuy",
-          "url": "https://yapaykuy.com/",
-          "descripcion": "Primera IA en el mundo que traduce lengua de señas en tiempo real, orientada a crear negocios y servicios inclusivos para personas con discapacidad auditiva.",
-          "categoria": "Inclusión Social"
-        },
-        {
-          "nombre": "IRBin · CIRSYS Tech",
-          "url": "https://www.cirsystech.com/irbin",
-          "descripcion": "Robot social peruano con IA que identifica residuos reciclables, interactúa con el usuario y premia conductas sostenibles de reciclaje.",
-          "categoria": "Medio Ambiente"
-        },
-        {
-          "nombre": "Nereuz · VEOX",
-          "url": "https://nereuz.veox.tech/",
-          "descripcion": "IA para acuicultura: monitoreo subacuático con cámaras y machine learning para estimar biomasa de trucha, tilapia y concha de abanico, reduciendo costos en 30%.",
-          "categoria": "Agro-industria"
-        },
-        {
-          "nombre": "Pixmap · Neurometrics",
-          "url": "https://neurometrics.la/pixmap-es/",
-          "descripcion": "Genera mapas de calor y métricas de atención visual con IA, simulando el seguimiento ocular humano sin equipos físicos de eyetracking.",
-          "categoria": "Marketing y Publicidad"
-        },
-        {
-          "nombre": "ProInnóvate · gob.pe",
-          "url": "https://www.gob.pe/institucion/proinnovate/noticias/923534-seis-herramientas-de-inteligencia-artificial-creadas-en-el-peru-para-mejorar-la-productividad-de-mipymes",
-          "descripcion": "Entidad estatal que financia y difunde herramientas de IA peruanas para mejorar la productividad de MIPYMES; referente institucional del ecosistema IA nacional.",
-          "categoria": "Política Pública"
+          "nombre": "Desarrollos con IA en el Perú",
+          "url": "/desarrollos-peru",
+          "descripcion": "Panorama de startups, herramientas e iniciativas de inteligencia artificial creadas en el Perú: desde visión artificial y analítica de video hasta inclusión social y acuicultura.",
+          "categoria": "Ecosistema IA Perú"
         }
       ]
     },

@@ -33,7 +33,9 @@
     <span class="badge-categoria">{{ enlace.categoria }}</span>
     <p><strong>{{ enlace.nombre }}</strong></p>
     <p class="desc">{{ enlace.descripcion }}</p>
-    <a href="{{ enlace.url }}" target="_blank">Ver sitio web →</a>
+    <a href="{{ enlace.url }}" {% if enlace.url.startswith('http') %}target="_blank"{% endif %}>
+      {% if enlace.url.startswith('http') %}Ver sitio web →{% else %}Ver más →{% endif %}
+    </a>
   </div>
   {% endfor %}
 </div>
