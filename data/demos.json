@@ -60,6 +60,12 @@
           "url": "https://rreeperu365-my.sharepoint.com/:w:/r/personal/fparedesa_rree_gob_pe/Documents/Escritorio/1%20Analisis%20del%20estado%20actual/Analisis_estado_actual_diplomacia_digital_y_uso_de_IA_en_el_MRE%20v10.docx?d=wb7958e2fe9e24ec582fb359695837e3b&csf=1&web=1&e=XJpZHJ",
           "descripcion": "Documento técnico que diagnostica el estado actual de la diplomacia digital y el uso de inteligencia artificial en el Ministerio de Relaciones Exteriores del Perú (versión 10).",
           "categoria": "Documento Oficial"
+        },
+        {
+          "nombre": "Base Documentaria",
+          "url": "/base-documentaria",
+          "descripcion": "Árbol normativo de los documentos legales y estratégicos que sustentan la integración de la IA en el Estado peruano.",
+          "categoria": "Marco Normativo"
         }
       ]
     },
