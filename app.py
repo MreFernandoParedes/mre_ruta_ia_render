@@ -70,6 +70,11 @@ def desarrollos_peru():
     return render_template("desarrollos-peru.html", enlaces=data["desarrollos_peru"])
 
 
+@app.route("/base-documentaria")
+def base_documentaria():
+    return render_template("base-documentaria.html", proyecto=get_proyecto())
+
+
 @app.route("/acerca")
 def acerca():
     return render_template("acerca.html", proyecto=get_proyecto())
