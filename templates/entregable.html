@@ -1,7 +1,12 @@
 {% extends "base.html" %}
 {% block content %}
 
-<a href="{{ url_for('entregables') }}" class="btn-volver">← Volver</a>
+{% set breadcrumbs = [
+  {"label": "Inicio", "url": url_for('inicio')},
+  {"label": "Entregables", "url": url_for('entregables')},
+  {"label": "Entregable " ~ seccion.id}
+] %}
+{% include "_breadcrumbs.html" %}
 
 <h3>Entregable {{ seccion.id }}: {{ seccion.titulo }}</h3>
 
@@ -34,7 +39,7 @@
     <p><strong>{{ enlace.nombre }}</strong></p>
     <p class="desc">{{ enlace.descripcion }}</p>
     <a href="{{ enlace.url }}" {% if enlace.url.startswith('http') %}target="_blank"{% endif %}>
-      {% if enlace.url.startswith('http') %}Ver sitio web →{% else %}Ver más →{% endif %}
+      {% if enlace.url.startswith('http') %}Ver sitio web &rarr;{% else %}Ver más &rarr;{% endif %}
     </a>
   </div>
   {% endfor %}
