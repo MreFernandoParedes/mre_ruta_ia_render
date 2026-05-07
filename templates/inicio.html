@@ -1,8 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
 
+{% set breadcrumbs = [
+  {"label": "Inicio"}
+] %}
+{% include "_breadcrumbs.html" %}
+
 <h1 style="color:#1363D0;">{{ proyecto.titulo }}</h1>
-<p style="color:#555869;">{{ proyecto.institucion }} · {{ proyecto.anio }}</p>
+<p style="color:#555869;">{{ proyecto.institucion }} - {{ proyecto.anio }}</p>
 
 <hr>
 
@@ -50,7 +55,7 @@ en la diplomacia digital del MRE, incorporando:</p>
       <li>Revisión de normativa vigente peruana e internacional</li>
       <li>Identificación de casos de uso prioritarios</li>
       <li>Propuesta de gobernanza, ética y controles</li>
-      <li>Elaboración de hoja de ruta estratégica 2026–2028</li>
+      <li>Elaboración de hoja de ruta estratégica 2026-2028</li>
     </ul>
   </div>
   <div>
