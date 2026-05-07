@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% set breadcrumbs = [
+  {"label": "Inicio", "url": url_for('inicio')},
+  {"label": "Entregables", "url": url_for('entregables')},
+  {"label": "Entregable 1", "url": url_for('entregable', id=1)},
+  {"label": "Base documentaria"}
+] %}
+{% include "_breadcrumbs.html" %}
+
+<a href="{{ url_for('entregable', id=1) }}" class="btn-volver">&larr; Entregable 1</a>
+
+<h3>Base Documentaria</h3>
+<p class="subtitulo-bd">Marco normativo y estratégico que sustenta la integración de la inteligencia artificial en el Estado peruano.</p>
+
+<div class="tree-wrap">
+  <ul class="tree">
+    <li>
+      <div class="tree-node tree-node-raiz">
+        <div class="tree-titulo" style="font-size:15px; font-weight:700;">Marco Normativo IA - Perú</div>
+      </div>
+      <ul>
+        <li>
+          <div class="tree-node">
+            <span class="tree-badge tree-badge-ley">D. Leg. N° 1412</span>
+            <div class="tree-titulo">Ley de Gobierno Digital</div>
+            <div class="tree-anio">2018</div>
+            <a href="https://rreeperu365-my.sharepoint.com/:b:/r/personal/fparedesa_rree_gob_pe/Documents/Documentos/El%20Peruano/decreto-legislativo-que-aprueba-la-ley-de-gobierno-digital-decreto-legislativo-n-1412-1691026-1.pdf?csf=1&web=1&e=mKfmXx" target="_blank" class="tree-doc-link">Ver documento &rarr;</a>
+          </div>
+        </li>
+        <li>
+          <div class="tree-node">
+            <span class="tree-badge tree-badge-ley">Ley N° 29733</span>
+            <div class="tree-titulo">Ley de Protección de Datos Personales</div>
+            <div class="tree-anio">2011</div>
+            <a href="https://rreeperu365-my.sharepoint.com/:b:/r/personal/fparedesa_rree_gob_pe/Documents/Documentos/El%20Peruano/ley-proteccion-datos-personales-ley-29733.pdf?csf=1&web=1&e=4VrmXe" target="_blank" class="tree-doc-link">Ver documento &rarr;</a>
+          </div>
+        </li>
+        <li>
+          <div class="tree-node">
+            <span class="tree-badge tree-badge-ley">Ley N° 31814</span>
+            <div class="tree-titulo">Ley que promueve el uso de la Inteligencia Artificial</div>
+            <div class="tree-anio">2023</div>
+            <a href="https://rreeperu365-my.sharepoint.com/:b:/r/personal/fparedesa_rree_gob_pe/Documents/Documentos/El%20Peruano/ley-que-promueve-el-uso-de-la-inteligencia-artificial-en-fav-ley-31814.pdf?csf=1&web=1&e=vqUdRi" target="_blank" class="tree-doc-link">Ver documento &rarr;</a>
+          </div>
+          <ul>
+            <li>
+              <div class="tree-node">
+                <span class="tree-badge tree-badge-ds">D.S. N° 115-2025-PCM</span>
+                <div class="tree-titulo">Reglamento de la Ley N° 31814</div>
+                <div class="tree-anio">2025</div>
+                <a href="https://rreeperu365-my.sharepoint.com/:b:/r/personal/fparedesa_rree_gob_pe/Documents/Documentos/El%20Peruano/reglamento-ley-31814-7133522-decreto-supremo-n-115-2025-pcm.pdf?csf=1&web=1&e=uLRDTe" target="_blank" class="tree-doc-link">Ver documento &rarr;</a>
+              </div>
+              <ul>
+                <li>
+                  <div class="tree-node tree-node-leaf">
+                    <span class="tree-badge tree-badge-ds">D.S. N° 152-2026</span>
+                    <div class="tree-titulo">Estrategia Nacional de Inteligencia Artificial</div>
+                    <div class="tree-anio">2026</div>
+                    <a href="https://rreeperu365-my.sharepoint.com/:b:/r/personal/fparedesa_rree_gob_pe/Documents/Documentos/El%20Peruano/estrategia-nacional-ia-decreto-supremo-n-152-2026-2511535-1.PDF?csf=1&web=1&e=C3ilw2" target="_blank" class="tree-doc-link">Ver documento &rarr;</a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+{% endblock %}
