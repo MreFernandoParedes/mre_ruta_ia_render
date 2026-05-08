@@ -5,24 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IA - MRE</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="top-stripe" aria-hidden="true"></div>
   <header class="site-header">
     <div class="header-inner">
-      <a href="{{ url_for('inicio') }}">
+      <a href="{{ url_for('inicio') }}" class="brand-link" aria-label="Inicio">
         <img src="{{ url_for('static', filename='img/logo_mre.png') }}" alt="MRE" height="48">
       </a>
-      <nav>
+      <div class="header-context">
+        <p class="eyebrow">Portal institucional</p>
+        <p class="header-title">Hoja de ruta de inteligencia artificial</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="site-nav-wrap">
+    <div class="site-nav-inner">
+      <nav class="site-nav" aria-label="Navegación principal">
         <a href="{{ url_for('inicio') }}" class="{{ 'active' if request.endpoint == 'inicio' }}">Inicio</a>
         <a href="{{ url_for('entregables') }}" class="{{ 'active' if request.endpoint in ('entregables', 'entregable') }}">Entregables</a>
         <a href="{{ url_for('acerca') }}" class="{{ 'active' if request.endpoint == 'acerca' }}">Acerca</a>
       </nav>
     </div>
-  </header>
+  </div>
 
-  <main class="container">
-    {% block content %}{% endblock %}
+  <main class="page-main">
+    <div class="container content-card">
+      {% block content %}{% endblock %}
+    </div>
   </main>
 
   <footer class="site-footer">
