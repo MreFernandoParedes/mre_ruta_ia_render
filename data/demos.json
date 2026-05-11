@@ -107,7 +107,15 @@
       "id": 5,
       "titulo": "Matriz de brechas y necesidades institucionales",
       "estado": "pendiente",
-      "contenido": []
+      "contenido": [],
+      "enlaces": [
+        {
+          "nombre": "Matriz de brechas y necesidades institucionales",
+          "url": "https://rreeperu365-my.sharepoint.com/:w:/r/personal/fparedesa_rree_gob_pe/Documents/Escritorio/5_Matriz%20de%20Brechas%20y%20Necesidades%20Institucionales/5%20Matriz%20de%20brechas%20y%20Necesidades%20Institucionales.docx?d=wb4c1fa7a298048ba84fcae1ad728f915&csf=1&web=1&e=COzHDU",
+          "descripcion": "Documento de matriz de brechas y necesidades institucionales del entregable 5.",
+          "categoria": "Documento Oficial"
+        }
+      ]
     },
     {
       "id": 6,
