@@ -1,6 +1,6 @@
 {
   "proyecto": {
-    "titulo": "Hoja de Ruta para la integración de la inteligencia artificial en la diplomacia digital",
+    "titulo": "Hoja de Ruta para la integración de la inteligencia artificial en el Ministerio de Relaciones Exteriores del Perú",
     "institucion": "Ministerio de Relaciones Exteriores del Perú",
     "anio": 2026
   },
@@ -64,7 +64,7 @@
         {
           "nombre": "Base Documentaria",
           "url": "/base-documentaria",
-          "descripcion": "Árbol normativo de los documentos legales y estratégicos que sustentan la integración de la IA en el Estado peruano.",
+          "descripcion": "Documentos legales que norman la integración de la IA en el Estado peruano.",
           "categoria": "Marco Normativo"
         }
       ]
@@ -78,7 +78,7 @@
         {
           "nombre": "Desarrollos con IA en el Perú",
           "url": "/desarrollos-peru",
-          "descripcion": "Panorama de startups, herramientas e iniciativas de inteligencia artificial creadas en el Perú: desde visión artificial y analítica de video hasta inclusión social y acuicultura.",
+          "descripcion": "Herramientas y sistemas de inteligencia artificial desarrolladas en el Perú: Ejemplos de visión artificial y analítica de video en temas de inclusión social y acuicultura entre otros.",
           "categoria": "Ecosistema IA Perú"
         }
       ]
