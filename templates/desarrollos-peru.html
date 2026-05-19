@@ -15,12 +15,11 @@
 
 <div class="grilla">
   {% for enlace in enlaces %}
-  <div class="tarjeta-enlace">
+  <a href="{{ enlace.url }}" target="_blank" class="tarjeta-enlace">
     <span class="badge-categoria">{{ enlace.categoria }}</span>
     <p><strong>{{ enlace.nombre }}</strong></p>
     <p class="desc">{{ enlace.descripcion }}</p>
-    <a href="{{ enlace.url }}" target="_blank">Ver sitio web &rarr;</a>
-  </div>
+  </a>
   {% endfor %}
 </div>
 
