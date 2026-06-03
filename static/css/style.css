@@ -515,6 +515,10 @@ a:hover {
   border: 1px solid var(--border-strong);
   text-align: center;
   transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .tree-node:hover {
